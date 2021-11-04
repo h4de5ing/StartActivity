@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/startAFR"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StartActivityForResult" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/startSFR"
+            android:text="StartIntentSenderForResult" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/startRMP"
+            android:text="RequestMultiplePermissions" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/startRP"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RequestPermission" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/startTPP"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TakePicturePreview" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:id="@+id/startTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TakePicture" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:id="@+id/startTV"
+            android:layout_height="wrap_content"
+            android:text="TakeVideo" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:id="@+id/startPC"
+            android:layout_height="wrap_content"
+            android:text="PickContact" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:id="@+id/startGC"
+            android:layout_height="wrap_content"
+            android:text="GetContent" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:id="@+id/startGMC"
+            android:layout_height="wrap_content"
+            android:text="GetMultipleContents" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:id="@+id/startOD"
+            android:layout_height="wrap_content"
+            android:text="OpenDocument" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:id="@+id/startOMD"
+            android:layout_height="wrap_content"
+            android:text="OpenMultipleDocuments" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:id="@+id/startOMT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OpenDocumentTree" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/startCD"
+            android:text="CreateDocument" />
+
+    </LinearLayout>
+</ScrollView>
